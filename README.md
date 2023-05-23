@@ -26,3 +26,17 @@ Key tools to be used in this core framework are:
 - [ ] **Docker** (for automating test framework's environment)
 - [ ] **SonarQube/SonarLint** (for keeping your code clean and safe)
 
+
+🚀 Executing Tests and Generating Reports
+To execute the tests and generate reports using Maven, follow these steps:
+
+-Open a command prompt or terminal.
+-Navigate to the root directory of the project.
+-Run the following command to clean the project and execute the tests:
+
+-mvn clean test
+
+
+-This command will compile the project, execute the tests, and generate the test reports.
+
+-After the execution is complete, you can find the generated reports in the target/cucumber-html-reports directory.
