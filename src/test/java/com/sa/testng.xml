@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10" configfailurepolicy="skip" parallel="classes">
+
+<!--    <test name="E2E Test of EAApp">-->
+<!--        <classes>-->
+<!--            <class name="com.ea.SpringBasic.SpringTestNGTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="E2E Test of EAApp 2">-->
+<!--        <classes>-->
+<!--            <class name="com.ea.SpringBasic.SpringTestNGTest_Dup"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="E2E Test of EAApp">
+        <classes>
+            <class name="com.sa.demo.runner.TestRunner" />
+            <parameter name="dataproviderthreadcount" value="3"/>
+        </classes>
+    </test>
+</suite>
+        
